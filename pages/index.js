@@ -3,7 +3,7 @@ import Banner from "../components/banner";
 import Caurse from "../components/caurse";
 import Certificate from "../components/certificate";
 import Development from "../components/development";
-import Footer from "../components/footer";
+
 import Header from "../components/header";
 import Wallet from "../components/wallet";
 

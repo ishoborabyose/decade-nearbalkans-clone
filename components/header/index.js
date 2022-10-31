@@ -11,7 +11,15 @@ import { Dialog, Transition } from "@headlessui/react";
 const country = [
   {
     name: "brazil",
-    url: "vectors/logo2.svg",
+    url: "vectors/flag.svg",
+  },
+  {
+    name: "Croatia",
+    url: "vectors/flag.svg",
+  },
+  {
+    name: "America",
+    url: "vectors/flag.svg",
   },
 ];
 
@@ -109,7 +117,7 @@ const Header = () => {
                         className="my-auto cursor-pointer"
                         onClick={closeModal}
                       >
-                        <img src="vectors/logo2.svg" />
+                        <img src="vectors/ex.svg" />
                       </span>
                     </div>
                   </Dialog.Title>
@@ -132,7 +140,7 @@ const Header = () => {
                           <div>
                             <span className="p-2.5 rounded-full bg-gray-200 mx-auto flex items-center">
                               <img
-                                src="assets/arrow.svg"
+                                src="vectors/arrow.svg"
                                 width={7}
                                 height={14}
                               />

@@ -5,9 +5,9 @@ import image2 from "../../public/images/image (25).png";
 import image3 from "../../public/images/image (26).png";
 const Caurse = () => {
   return (
-    <section className="lg:mt-[177px] lg:px-0 lg:max-w-[940px] mx-auto mt-16 px-[22px] flex gap-x-[179px] lg:flex-row flex-col gap-y-4 items-center">
+    <section className="lg:mt-1/177 lg:px-0 lg:max-w-1/940 mx-auto mt-16 px-1/22 flex gap-x-1/179 lg:flex-row flex-col gap-y-4 items-center">
       <div className="z-50">
-        <div className=" z-10 relative lg:w-[296px] lg:h-[296px] w-[180px] h-[180px]">
+        <div className=" z-10 relative lg:w-1/296 lg:h-1/296 w-1/180 h-1/180">
           <svg
             viewBox="0 0 296 296"
             fill="none"
@@ -79,14 +79,14 @@ const Caurse = () => {
               </linearGradient>
             </defs>
           </svg>
-          <div className="bg-hero  opacity-[0.3] blur-[6.181rem]  top-[38%] right-[70%] absolute h-[480px] w-[480px] z-0 hidden lg:block"></div>
+          <div className="bg-hero  opacity-[0.3] blur-[6.181rem]  top-[38%] right-[70%] absolute h-1/480 w-1/480 z-0 hidden lg:block"></div>
         </div>
       </div>
 
       <div className="text-center lg:text-left">
         <h1 className="text-title font-medium text-2xl lg:text-4xl leading-[44px] tracking-[-0.02em] relative">
           Complete the course
-          <div className="absolute top-[0] -mt-[38%] -left-[24%] hidden lg:block">
+          <div className="absolute top-[0] -mt-1/38 -left-[24%] hidden lg:block">
             <svg
               width="164"
               height="132"
@@ -108,8 +108,8 @@ const Caurse = () => {
           In three simple modules, learn:
         </p>
         <div className=" lg:flex  lg:flex-row  lg:gap-2">
-          <div className="flex gap-x-3 gap-y-[10px] lg:items-end items-center lg:flex-row flex-col mt-6">
-            <div className="lg:h-8 lg:w-8 h-[18px] w-[18px]">
+          <div className="flex gap-x-3 gap-y-1/10 lg:items-end items-center lg:flex-row flex-col mt-6">
+            <div className="lg:h-8 lg:w-8 h-1/18  w-[18px]">
               <Image src={image1} />
             </div>
           </div>
@@ -119,8 +119,8 @@ const Caurse = () => {
         </div>
 
         <div className=" lg:flex  lg:flex-row  lg:gap-2">
-          <div className="flex gap-x-3 gap-y-[10px] lg:items-end items-center lg:flex-row flex-col mt-6">
-            <div className="lg:h-8 lg:w-8 h-[18px] w-[18px]">
+          <div className="flex gap-x-3 gap-y-1/10 lg:items-end items-center lg:flex-row flex-col mt-6">
+            <div className="lg:h-8 lg:w-8 h-1/18 w-[18px]">
               <Image src={image2} />
             </div>
           </div>
@@ -130,8 +130,8 @@ const Caurse = () => {
         </div>
 
         <div className=" lg:flex  lg:flex-row  lg:gap-2">
-          <div className="flex gap-x-3 gap-y-[10px] lg:items-end items-center lg:flex-row flex-col mt-6">
-            <div className="lg:h-8 lg:w-8 h-[18px] w-[18px]">
+          <div className="flex gap-x-3 gap-y-1/10 lg:items-end items-center lg:flex-row flex-col mt-6">
+            <div className="lg:h-8 lg:w-8 h-1/18 w-[18px]">
               <Image src={image3} />
             </div>
           </div>
